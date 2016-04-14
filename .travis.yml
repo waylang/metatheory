@@ -6,6 +6,8 @@ addons:
     - chef-current-precise
     packages:
     - chefdk
+git:
+  submodules: false
 # $ tar czf secrets.tar.gz secrets/*
 # $ travis encrypt-file secrets.tar.gz
 before_install:
@@ -20,6 +22,7 @@ before_install:
   tar xzf secrets.tar.gz
   mv secrets/waybot.pem ~/.ssh/id_rsa
   chmod 600 ~/.ssh/id_rsa
+  git submodule update --init --recursive
   eval "$(/opt/chefdk/bin/chef shell-init bash)"
   which ruby
   ruby --version
