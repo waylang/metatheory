@@ -1,5 +1,10 @@
 .vagrant
 
+# Secrets
+secrets/*
+!secrets/.keep
+secrets.tar.gz
+
 # Bundler
 .bundle/*
 bin/*
