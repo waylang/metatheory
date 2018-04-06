@@ -1,0 +1,19 @@
+Some things I know
+
+1. (Gödel 2) PRA proves no consistent, sufficiently powerful system proves it is consistent.
+
+2. PRA proves CoC is sufficiently powerful.
+
+3. PRA proves CIC is sufficiently powerful.
+
+4. Thierry proves ZF(?) proves CoC is strongly normalizing
+
+5. Thierry proves ZF(?) proves CoC is consistent
+
+6. CoC proves that no CoC WHNF term of type False exists
+
+7. 6 proves CoC proves if CoC is strongly normalizing then CoC is consistent
+
+8. 1, 2, 5, 7 prove CoC does not prove it is strongly normalizing
+
+9. Bruno proves CIC proves CoC is strongly normalizing
